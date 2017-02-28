@@ -1,6 +1,6 @@
 # CSharp_SomenteNumero
 
-if (!(e.KeyChar >= \\\'0\\\' &amp;&amp; e.KeyChar &lt;= \\\'9\\\') &amp;&amp; e.KeyChar != 8) e.Handled = true;
+if (!(e.KeyChar >= '0' &amp;&amp; e.KeyChar &lt;= '9') &amp;&amp; e.KeyChar != 8) e.Handled = true;
 
 
     Private Sub TextBox1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox1.KeyPress
