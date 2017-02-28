@@ -28,6 +28,6 @@ if (!(e.KeyChar >= '0' &amp;&amp; e.KeyChar &lt;= '9') &amp;&amp; e.KeyChar != 8
 
         //And C#
 
-        if (!(e.KeyChar >= \\\'0\\\' && e.KeyChar <= \\\'9\\\') && e.KeyChar != 8) e.Handled = true;
+        if (!(e.KeyChar >= '0' && e.KeyChar <= '9') && e.KeyChar != 8) e.Handled = true;
 
     End Sub
